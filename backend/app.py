@@ -13,7 +13,7 @@ CORS(app)
 
 class DataStore():
     language = "dutch"
-    model = "base" # set to "large" for better accuracy but slower inference
+    model = "large" # set to "large" for better accuracy but slower inference
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("Using device: ", device)
     audio_model = whisper.load_model(model)
