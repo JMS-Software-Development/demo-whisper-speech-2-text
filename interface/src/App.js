@@ -121,7 +121,7 @@ const App = ({ classes }) => {
     <div className={classes.root}>
       <div className={classes.title}>
         <Typography variant="h3">
-          Spraak naar tekst Demo <span role="img" aria-label="microphone-emoji">🎤</span>
+          Transcriptie test sessie <span role="img" aria-label="microphone-emoji">🎤</span>
         </Typography>
       </div>
       <div className={classes.settingsSection}>
